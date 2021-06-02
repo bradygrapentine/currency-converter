@@ -8,7 +8,7 @@ export function ConvertedValues(props) {
         return (
           <li key={currency[0]}>
             <strong>
-              {currency[0]}/{props.conversionRates.base}:{' '}
+              Value in {currency[0]}:{' '}
               {(Math.floor(currency[1] * props.amount * 100) / 100).toFixed(2)}
             </strong>
           </li>

@@ -19,11 +19,6 @@ export function App() {
     console.log(response.data)
   }, [])
 
-  // LATEST RATES ENDPOINT: https://api.exchangeratesapi.io/v1/latest?access_key=cbd692cf88946332fe6505adff3b3fa1
-  // &base=USD
-
-  // HISTORICAL RATES ENDPOINT: https://api.exchangeratesapi.io/v1/2013-12-24?access_key=cbd692cf88946332fe6505adff3b3fa1&base=USD
-
   return (
     <>
       <header>
