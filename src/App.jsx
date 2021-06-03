@@ -29,9 +29,7 @@ export function App() {
             value={amount}
             onChange={(event) =>
               // @ts-ignore
-              event.target.value >= 0
-                ? setAmount(Number(event.target.value))
-                : 0
+              event.target.value >= 0 ? setAmount(event.target.value) : {}
             }
           />
         </section>
